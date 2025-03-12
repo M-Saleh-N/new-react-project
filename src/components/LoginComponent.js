@@ -1,6 +1,7 @@
 const LoginComponent = () => {
     return(
         <div>
+            <H1>LOGIN</H1>
             <label for="Email"></label>
             <input id="email" name="email" type="text" placeholder="Email" required />
             <label for="Password"></label>
