@@ -5,7 +5,7 @@ const LoginComponent = () => {
             <input id="email" name="email" type="text" placeholder="Email" required />
             <label for="Password"></label>
             <input id="password" name="Password" type="password" placeholder="Password" required />
-            <button id="submitButton">SUBMIT</button>
+            <button id="submitButton">LOGIN</button>
         </div>
     )
 }
