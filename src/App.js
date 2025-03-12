@@ -17,8 +17,9 @@ function App() {
         
   return (
     <div>
-        <button id = "loginbutton" onClick={handleform}>LOGIN</button>
-        <button id = "registerbutton" onClick={handleform}>REGISTER</button>
+        <button value = "loginbutton" onClick={handleform}>LOGIN</button>
+        <button value = "registerbutton" onClick={handleform}>REGISTER</button>
+        {formState === "register" ? <FormComponent/> : <LoginComponent/>}
 
       <FormComponent/>
       <LoginComponent/>
