@@ -9,8 +9,10 @@ function App() {
 
     const handleform = (e) => {
         const btnName = e.target.value
-        console.log(btnName)
+        setFormState(btnName)
         console.log(formState)
+
+
     }
         
   return (
