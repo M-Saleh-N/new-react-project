@@ -4,6 +4,7 @@ import FormComponent from './components/formComponent';
 import LoginComponent from './components/LoginComponent';
 
 function App() {
+    const handleform = (e) => {}
   return (
     <div>
         <button id = "loginbutton" onClick={handleform}>LOGIN</button>
