@@ -1,15 +1,16 @@
-const LoginComponent = () => {
-    return(
-        <div>
-            <h1>LOGIN</h1>
-            <style> </style>
-            <label for="Email"></label>
-            <input id="email" name="email" type="text" placeholder="Email" required />
-            <label for="Password"></label>
-            <input id="password" name="Password" type="password" placeholder="Password" required />
-            <button id="submitButton">LOGIN</button>
-        </div>
-    )
-}
+import './LogInComponent.css'
 
-export default LoginComponent
+const LoginComponent = () => {
+    return (
+        <div className="login-container">
+            <h1 className="login-title">LOGIN</h1>
+            <label htmlFor="email">Email</label>
+            <input id="email" name="email"type="text"placeholder="Email" required className="login-input"  />
+            <label htmlFor="password">Password</label>
+            <input id="password" name="password"type="password"placeholder="Password" required className="login-input"  />
+            <button id="submitButton" className="login-button">LOGIN</button>
+        </div>
+    );
+};
+
+export default LoginComponent;
